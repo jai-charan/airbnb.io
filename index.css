@@ -1,0 +1,70 @@
+body{
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    height: 50px;
+    display: flex;
+    padding: 30 40;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.Airbnblogo{
+    max-width: 200px;
+}
+section{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.photogrid{
+    max-width: 400px;
+    align-self: center;
+}
+.h-h1{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.h-h3{
+    font-weight: 100;
+   
+}
+.grey{
+    color: #918E9B;
+}
+.card{
+
+    
+    padding-left: 20;
+    font-size: 12;
+    width: 175;
+    
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    width:175;
+    height: 235;
+    border-radius: 9px;
+}
+
+.star{
+    width: 12;
+    height: 12; /* Maintain aspect ratio */
+    vertical-align: middle;
+    margin-top: 3;
+   
+    
+}
+.sp{
+    display: inline-block;
+    vertical-align: middle; /* Align the text vertically with image */
+    margin-left: 17px;
+    margin-top: -12;
+}
+.cards-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 13px;
+    overflow-x: auto;
+
+}
